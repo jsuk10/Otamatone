@@ -12,89 +12,72 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/backGround"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@mipmap/back" />
+            app:srcCompat="@drawable/defultbackground" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="205dp"
             android:orientation="vertical"
             android:paddingBottom="90dp">
 
-            <Button
+            <ImageButton
                 android:id="@+id/button1"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="E" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:textColor="@android:color/white"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button2"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="D" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button3"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="C" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button4"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="B" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button5"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="A" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button6"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="G" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button7"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="F" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button8"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="E" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button9"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="D" />
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
 
-            <Button
+            <ImageButton
                 android:id="@+id/button10"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:onClick="mOnClick"
-                android:text="C" />
-
+                android:layout_width="20dp"
+                android:layout_height="25dp"/>
         </LinearLayout>
 
     </RelativeLayout>
